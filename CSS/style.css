@@ -283,6 +283,15 @@ a{
     transform: translate(-50%,-50%);
     color: #1e1e1e;
 }
+.card .icon .up a i{
+    font-size: 20px;
+    position: relative;
+    margin-top: 210px;
+    transition: all 1s ease;
+    animation: up 1s ease infinite forwards;
+}
+
+
 .card .icon h2{
     position: absolute;
     top: 60%;
@@ -363,6 +372,13 @@ a{
     font-size: 40px;
     transform: translate(-50%,-50%);
     color: #1e1e1e;
+}
+.card-2 .icon .up a i{
+    font-size: 20px;
+    position: relative;
+    margin-top: 210px;
+    transition: all 1s ease;
+    animation: up 1s ease infinite forwards;
 }
 .card-2 .icon h2{
     position: absolute;
@@ -961,6 +977,18 @@ a{
     100%{
         transform: translateY(8px);
     }
+}
+/* SCROLL-UP */
+@keyframes up {
+    0%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    
 }
 
 /* WAVE */
