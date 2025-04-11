@@ -283,15 +283,13 @@ a{
     transform: translate(-50%,-50%);
     color: #1e1e1e;
 }
-.card .icon .up a i{
+.card .icon .up i{
     font-size: 20px;
     position: relative;
     margin-top: 210px;
     transition: all 1s ease;
     animation: up 1s ease infinite forwards;
 }
-
-
 .card .icon h2{
     position: absolute;
     top: 60%;
@@ -373,7 +371,7 @@ a{
     transform: translate(-50%,-50%);
     color: #1e1e1e;
 }
-.card-2 .icon .up a i{
+.card-2 .icon .up  i{
     font-size: 20px;
     position: relative;
     margin-top: 210px;
