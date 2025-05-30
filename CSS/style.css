@@ -261,6 +261,13 @@ a{
     font-weight: 700;
     font-size: 20px;
 }
+.btn-cv{
+    transition: all ease 0.5s;
+}
+.btn-cv:hover{
+    transform: scale(1.2) translateY(-20px);
+
+}
 
 /* CARDS */
 /* EDUCATION */
